@@ -34,5 +34,27 @@ header {
 section {
     border: 1px solid #ddd;
     padding: 15px;
-    border-radius: 15px;
+    border-radius: 15px;   
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+section {
+    background-color: #f9f9f9;
+}
+
+.center-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
